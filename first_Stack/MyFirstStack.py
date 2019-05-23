@@ -39,4 +39,8 @@ print(MyFirstStack.size())
 MyFirstStack.pop()
 print(MyFirstStack.is_empty())
 
+#打印栈顶的元素，栈里面没有元素时候，下标会出错
+MyFirstStack.push(1)
+print(MyFirstStack.peek())
+
 
