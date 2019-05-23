@@ -46,4 +46,11 @@ print(MyFirstStack.peek())
 #打印栈的大小
 print(MyFirstStack.size())
 
-
+#空栈
+MyFirstStack.pop()
+for c in "hello":
+	MyFirstStack.push(c)
+revert = ""
+for i in range(len(MyFirstStack.items)):
+	revert += MyFirstStack.pop()
+print(revert)
