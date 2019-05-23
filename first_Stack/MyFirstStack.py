@@ -35,4 +35,8 @@ MyFirstStack.push(1)
 print(MyFirstStack.is_empty())
 print(MyFirstStack.size())
 
+#移除最后一个元素，因为只有一个，所以调用is_empty()方法
+MyFirstStack.pop()
+print(MyFirstStack.is_empty())
+
 
