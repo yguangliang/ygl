@@ -30,4 +30,9 @@ class MyFirstStack(object):
 MyFirstStack = MyFirstStack()
 print(MyFirstStack.is_empty())
 
+#向栈中添加元素
+MyFirstStack.push(1)
+print(MyFirstStack.is_empty())
+print(MyFirstStack.size())
+
 
