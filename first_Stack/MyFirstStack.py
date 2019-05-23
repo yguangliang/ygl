@@ -43,4 +43,7 @@ print(MyFirstStack.is_empty())
 MyFirstStack.push(1)
 print(MyFirstStack.peek())
 
+#打印栈的大小
+print(MyFirstStack.size())
+
 
