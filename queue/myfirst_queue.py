@@ -9,7 +9,7 @@ class FirstQueue:
 		""" 检查队列状态，队列为空时返回True,反之则返回False"""
 		return self.items == []
 
-	def enqueue(self):
+	def enqueue(self,item):
 		"""向队列中添加一个元素"""
 		self.items.insert(0,item)
 
@@ -25,3 +25,7 @@ class FirstQueue:
 FirstQueue = FirstQueue()
 #队列的状态
 print(FirstQueue.is_empty())
+
+#add a element to queue
+FirstQueue.enqueue(1)
+print(FirstQueue.size())
