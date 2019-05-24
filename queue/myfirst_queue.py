@@ -15,7 +15,7 @@ class FirstQueue:
 
 	def dequeue(self):
 		"""向队列中删除一个元素"""
-		self.items.pop()
+		return self.items.pop()
 
 	def size(self):
 		"""返回队列中的元素的数量"""
@@ -29,3 +29,15 @@ print(FirstQueue.is_empty())
 #add a element to queue
 FirstQueue.enqueue(1)
 print(FirstQueue.size())
+
+#add 5 element to queue
+for i in range(5):
+	FirstQueue.enqueue(i)
+print(FirstQueue.size())
+
+#Remove queue elements in turn
+for i in range(5):
+	print(FirstQueue.dequeue())
+print()
+print(FirstQueue.size())
+
