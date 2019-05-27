@@ -26,5 +26,8 @@ print("列表中的超出的索引：str(fruit2[6])超出索引会报：indexerr
 print("列表中的最后一个元素str(fruit2[-1])："+ str(fruit2[-1]))
 print("列表中的超出的索引：str(fruit2[-5])超出索引会报：indexerror")
 
-
+#list是一个可变的有序表，可以往list中追加元素到末尾
+fruit2.append(5)
+print("往fruit2的末尾添加5:")
+print(fruit2)
 
