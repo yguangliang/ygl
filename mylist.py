@@ -31,3 +31,8 @@ fruit2.append(5)
 print("往fruit2的末尾添加5:")
 print(fruit2)
 
+#list删除末尾元素
+print("删除末尾元素:5")
+fruit2.pop()
+print(fruit2)
+
