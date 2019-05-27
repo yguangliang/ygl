@@ -50,4 +50,9 @@ print("替换索引为0的元素为:Zero")
 fruit2[0] = "Zero"
 print(fruit2)
 
+#list元素的数据类型可以不一样
+print("替换索引为1的元素为:一个列表")
+fruit2[1] = [1, 2, 3]
+print(fruit2)
+
 
