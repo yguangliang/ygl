@@ -31,7 +31,7 @@ fruit2.append(5)
 print("往fruit2的末尾添加5:")
 print(fruit2)
 
-#把元素插入到指定的位置
+#把元素插入到指定的位置,指定位置的元素的索引向后移动一位
 fruit2.insert(0, 0)
 print(fruit2)
 
@@ -40,5 +40,9 @@ print("删除末尾元素:5")
 fruit2.pop()
 print(fruit2)
 
+#删除指定位置的元素，指定位置的元素向前移动一位
+print("删除索引为0元素:0")
+fruit2.pop(0)
+print(fruit2)
 
 
