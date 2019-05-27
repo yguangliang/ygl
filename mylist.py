@@ -45,4 +45,9 @@ print("删除索引为0元素:0")
 fruit2.pop(0)
 print(fruit2)
 
+#替换索引为0的元素
+print("替换索引为0的元素为:Zero")
+fruit2[0] = "Zero"
+print(fruit2)
+
 
