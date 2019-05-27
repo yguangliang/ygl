@@ -16,3 +16,8 @@ print("列表fruit2：")
 print(fruit2)
 print("列表fruit2的元素个数：")
 print(len(fruit2))
+
+#利用索引访问列表中的每一个元素,超出索引汇报indexerror
+#正整数索引，从0开始
+print("列表中的第一个元素:"+ str(fruit2[0]))
+#print("列表中的第一个元素："+ str(fruit2[6]) )
