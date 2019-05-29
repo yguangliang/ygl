@@ -12,7 +12,7 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="505" />
     <option name="y" value="98" />
     <option name="width" value="1400" />
@@ -74,7 +74,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="505" y="98" width="1400" height="820" extended-state="0" />
+    <frame x="505" y="98" width="1400" height="820" extended-state="1" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496329" />
