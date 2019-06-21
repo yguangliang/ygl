@@ -35,3 +35,9 @@ class PythonStudent():
 yueyue = PythonStudent()
 print(yueyue.age)
 yueyue.doHomeWork()
+
+# 使用平常对象查找所有成员
+print(yueyue.__dict__)
+
+# 使用类对象查找所有成员
+print(PythonStudent.__dict__)

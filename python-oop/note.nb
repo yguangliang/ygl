@@ -61,3 +61,9 @@
 - conda list:显示anaconda安装的包
 - conda env list:显示anaconda的虚拟环境列表
 - conda create -n xxx python=3.7:创建python版本为3.7的虚拟环境，名字为xxx
+
+# 4. 类对象和实例对象的区别
+- 相同点：
+    - 当成员变量没有通过实例对象来改变时候，类对象和实例对象的成员变量相等（id和值）
+- 不同点:
+    - 当成员变量通过实例对象来改变了，实例对象不再和类对象相等
