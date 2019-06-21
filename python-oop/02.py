@@ -40,3 +40,10 @@ print()
 print("     类对象属性Student.name:",Student.name)
 print("     类对象属性id(Student.name):",id(Student.name))
 print("     类对象Student.__dict__",Student.__dict__)
+
+# 新建一个实例化对象
+student2 = Student()
+print("     实例化对象student2.name：",student2.name)
+print("     实例化对象student2.name：",student2.name)
+print("     类对象student2.__dict__",student2.__dict__)
+print()
