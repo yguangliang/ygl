@@ -178,3 +178,12 @@
     - 可以在不修改类的情况下扩展类的功能
     - 可以根据需要任意调整功能类的组合
     - 可以避免创建很多新的类，避免继承错乱
+
+# 7.类的相关函数
+- issubclass:检测一个类是否是另一个类的子类
+- isinstance:判断一个对象是否是一个类的实例对象，如果他是一个类的实例对象，那么他也是这个类的父类的实例对象
+- hasattr:检测对象是否有某个成员
+- getattr:get attribute
+- setattr:set attibute
+- delattr:delete attribute
+- dir：获取对象的方法列表
